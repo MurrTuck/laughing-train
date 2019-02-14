@@ -10,19 +10,19 @@ class App extends Component {
         id: 1,
         title: 'Keep working on the app',
         completed: false,
-        timeEstimate: "+1 Hour"
+        timeEstimate: "60+"
       },
       {
         id: 2,
         title: 'Finish Emails',
         completed: false,
-        timeEstimate: "1 Hour"
+        timeEstimate: "25"
       },
       {
         id: 3,
         title: 'Take out Trash',
         completed: false,
-        timeEstimate: "30 Min or less"
+        timeEstimate: "5"
       }
     ]
   }
