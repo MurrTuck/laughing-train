@@ -4,7 +4,9 @@ export class TodoItem extends Component {
     render() {
         return (
             <div style={{ backgroundColor: '#f4f4f4' }}>
-                <p style={itemStyle}>{this.props.todo.title} </p>
+                <p style={itemStyle}>
+                    <input type="checkbox" /> {' '}
+                    {this.props.todo.title} </p>
                 <p style={durationStyle}>Estimated @ {this.props.todo.timeEstimate} Mins.
                 </p>
             </div>
